@@ -1,9 +1,12 @@
-# raizenzyne.github.io
+# Node.js Express.js TypeScript JavaScript
+
+personal notes on setting up initially
 
 >npm init --yes
+
 >npm i typescript @types/node express @types/express dotenv tsconfig-paths tsc-alias
 
-*package.json
+package.json
 "scripts": {
     "build": "tsc --project tsconfig.json && tsc-alias -p tsconfig.json",
     "start": "node backend/index.js",
@@ -14,7 +17,7 @@
 # Create tsconfig.json file
 >npx tsc --init
 
-*tsconfig.json
+tsconfig.json
 {
     "compilerOptions": {
       "rootDirs": ["src"],
